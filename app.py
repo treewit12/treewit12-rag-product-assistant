@@ -15,7 +15,11 @@ DATA_DIR = BASE_DIR / "data"
 GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.5-flash"]
 
 # st.set_page_config ต้องเป็นคำสั่ง Streamlit คำสั่งแรกเสมอ
-st.set_page_config(page_title="RAG Product Assistant", page_icon="🤖", layout="wide")
+st.set_page_config(
+    page_title="คู่มือการใช้งานและสรุปข้อมูลสินค้าไอที",
+    page_icon="💻",
+    layout="wide"
+)
 
 st.title("🤖 RAG Product Assistant")
 st.caption("ผู้ช่วยตอบคำถามจากคลังเอกสารคู่มือสินค้า ด้วย Retrieval-Augmented Generation")
