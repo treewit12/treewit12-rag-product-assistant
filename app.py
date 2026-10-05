@@ -21,7 +21,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 RAG Product Assistant")
+st.title("💻 คู่มือการใช้งานและสรุปข้อมูลสินค้าไอที")
 st.caption("ผู้ช่วยตอบคำถามจากคลังเอกสารคู่มือสินค้า ด้วย Retrieval-Augmented Generation")
 
 
